@@ -1,3 +1,4 @@
+'use client';
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import { RiReactjsLine, RiNodejsLine } from "react-icons/ri";
 import { SiMongodb, SiExpress, SiLeetcode } from "react-icons/si";
@@ -22,7 +23,7 @@ function Home() {
                             <h1>Hello, I'm a</h1>
                             <ReactTyped
                                 className="text-red-700 font-bold"
-                                strings={["Developer", "Programmer", "Coder"]}
+                                strings={["Coder", "Data Analyst", "Programmer"]}
                                 typeSpeed={80}
                                 backSpeed={80}
                                 loop
@@ -99,7 +100,7 @@ function Home() {
 
                     <div className="md:w-1/2 flex justify-center md:ml-40 md:mt-12 order-1 md:order-2">
                         <img
-                            src={pic}
+                            src={pic.src || pic}
                             alt="Vivek"
                             className="xl:w-[450px] xl:h-[450px] lg:w-[370px] lg:h-[370px] md:w-[350px] md:h-[350px] sm:w-[320px] sm:h-[320px] w-[300px] h-[300px] rounded-full"
                         />

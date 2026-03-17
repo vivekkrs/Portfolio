@@ -1,3 +1,4 @@
+'use client';
 import pic from "../img/VIVEK.jpg.png";
 import { MdOutlineMenu } from "react-icons/md";
 import { IoCloseSharp } from "react-icons/io5";
@@ -22,7 +23,7 @@ function Navbar() {
 
                     <div className="flex gap-3">
                         <img
-                            src={pic}
+                            src={pic.src || pic}
                             alt="Vivek"
                             className="h-12 w-12 rounded-full"
                         />

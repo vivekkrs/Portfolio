@@ -1,3 +1,4 @@
+'use client';
 import { FaFacebook,FaTwitter,FaInstagram,FaLinkedin } from "react-icons/fa6";
 
 function Footer(){

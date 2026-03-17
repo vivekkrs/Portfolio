@@ -1,3 +1,4 @@
+'use client';
 import { portfolioContext } from '../context/PortfolioContext';
 import { useContext } from 'react';
 
@@ -18,7 +19,7 @@ function Portfolio() {
                         >
                             <img
                                 className="ml-3 w-[130px] h-[130px] rounded-full"
-                                src={logo}
+                                src={logo.src || logo}
                                 alt={name}
                             />
 

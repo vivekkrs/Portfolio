@@ -1,3 +1,4 @@
+'use client';
 import java from '../img/java.png';
 import Python from '../img/python.webp';
 import mongodb from '../img/mongodb.jpg';

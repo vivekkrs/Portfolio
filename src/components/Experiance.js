@@ -1,3 +1,4 @@
+'use client';
 import java from '../img/java.png';
 import Python from '../img/python.webp';
 import mongodb from '../img/mongodb.jpg';
@@ -36,7 +37,7 @@ function Experience() {
                         >
                             <img
                                 className="ml-3 w-[130px] h-[130px] rounded-full"
-                                src={logo}
+                                src={logo.src || logo}
                                 alt={name}
                             />
 

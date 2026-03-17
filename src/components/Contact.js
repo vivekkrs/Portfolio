@@ -1,3 +1,4 @@
+'use client';
 import { useForm } from "react-hook-form"
 import axios from "axios"
 import toast from "react-hot-toast"
@@ -16,7 +17,7 @@ function Contact(){
             query: data.query
         }
         try{
-            await axios.post("https://getform.io/f/pbqgzwzb",userInfo);
+            await axios.post("/api/contact", userInfo);
             toast.success("Your message has been sent");
         }catch(error){
             toast.error("An error has occurred");

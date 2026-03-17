@@ -1,3 +1,4 @@
+'use client';
 import { useContext } from "react";
 import { motion } from "framer-motion";
 import { portfolioContext } from "../context/PortfolioContext";
@@ -31,7 +32,7 @@ function About() {
             transition={{ duration: 0.4 }}
         >
             <img
-                src={imgUrl}
+                src={imgUrl.src || imgUrl}
                 alt={name}
                 className="w-full h-40 md:h-48 object-cover rounded-md mb-1"
             />
@@ -143,7 +144,7 @@ function About() {
                         }}
                     >
                         <img
-                            src={cert.img}
+                            src={cert.img.src || cert.img}
                             alt={cert.title}
                             className="w-full h-44 object-cover rounded-md mb-3"
                         />
@@ -189,7 +190,7 @@ function About() {
 
                         <img
                             className="shadow-md rounded-md mb-3 w-full object-cover"
-                            src={exp.imgUrl}
+                            src={exp.imgUrl.src || exp.imgUrl}
                             alt={exp.title}
                         />
 
