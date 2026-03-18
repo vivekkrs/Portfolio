@@ -9,16 +9,15 @@ import css from '../img/css.jpg';
 import html from '../img/html.png';
 import springboot from '../img/springBoot.jpg';
 import { createContext } from 'react';
-import ur_sharthi1 from '../img/ur_sharthi1.png'
-import notes1 from '../img/notes1.png'
-import prime1 from '../img/prime1.png'
-import ml from '../img/mlCertificate.png'
+import movie from '../img/movie.png'
+import airQuality from '../img/airQuality.png'
+import excel from '../img/excel.png'
+import chatGPT from '../img/chatGPT.png'
+import automata from '../img/automata.png'
 import cloudComputing from '../img/cloud_Computing.jpg'
 import software_engineering from '../img/software_Engineering.png'
-import nodejsCetificate from '../img/nodejsCertificate.png'
 import trainingDSA from '../img/trainingDSA.png'
-import powerBiProject from '../img/powerBiProject.png'
-import theDresser from '../img/theDresser.png'
+import powerBi from '../img/powerBi.png'
 
 // Step 1
 export const portfolioContext = createContext();
@@ -110,46 +109,35 @@ I actively pursue online certifications and practical learning to stay ahead in 
           
             professional_experience: [
               {
-                title: "Backend Developer",
-                company: "UR-SARTHI (Live Project)",
-                duration: "Jun 2024 – Aug 2024",
+                title: "Machine Learning Project",
+                company: "Movie Recommender System",
+                duration: "Oct 2025 – Dec 2025",
                 techUsed: [
-                  "React Js","HTML","Javascript","Tailwind","Node.js","BcryptJs" ,"Express.js", "MongoDB", "Zegocloud", "Razorpay", "Socket.io"
+                  "Python","Machine Learning","NLP (Natural Language Processing)","NumPy","Pandas","Streamlit","CountVectorizer" ,"Cosine Similarity (sklearn)",
                 ],
-                imgUrl: ur_sharthi1,
-                gitHubLink: "https://github.com/kumarrohit2002/UR_Sarthi-User",
-                deployedLink: 'https://ur-sarthi-user.vercel.app/'
+                imgUrl: movie,
+                gitHubLink: "https://github.com/vivekkrs/Movie_Recommender_System_ML",
+                deployedLink: '#'
               },
               {
-                title: "Full Stack Developer Training",
-                company: "CipherSchools",
-                duration: "Jun 2024 – Jul 2024",
+                title: "",
+                company: "Air Quality Data Analysis and Visualizations",
+                duration: "Apr 2025 – May 2025",
                 techUsed: [
-                  "React.js", "Node.js", "MongoDB", "Express.js", "JWT Token", "Tailwind"
+                  "Python", "Numpy", "Pandas", "Matplotlib", "Seaborn", "scipy","EDA (Exploratory Data Analysis)", 
                 ],
-                imgUrl: notes1,
-                gitHubLink: "https://github.com/kumarrohit2002/Notes.me-App",
-                deployedLink: 'https://notes-me-app.vercel.app/'
-              },
-              {
-                title: "Full Stack Developer",
-                company: "the Dresser: E_commerce Website",
-                duration: "Mar 2025 – Apr 2025",
-                techUsed: [
-                  "React.js", "Node.js", "MongoDB", "Express.js", "JWT Token", "Tailwind"
-                ],
-                imgUrl: theDresser,
-                gitHubLink: "https://github.com/kumarrohit2002/E_commerce/",
-                deployedLink: "https://e-commerce-beta-vert.vercel.app/"
+                imgUrl: airQuality,
+                gitHubLink: "https://github.com/vivekkrs/Air-quality-Data-Analysis-and-Visualization-using-Python",
+                deployedLink: '#'
               },
               {
                 title: "Data Analyst",
-                company: "Amazon Prime Dashboard",
-                duration: "Sep 2024 – oct 2024",
+                company: "Road Accident Data",
+                duration: "Mar 2025 – Apr 2025",
                 techUsed: [
-                  "Tableau", "Data Visualization", "Charts", "Dashboard Design"
+                  "Excel", "Data Visualization", "Charts", "Dashboard Design"
                 ],
-                imgUrl: prime1,
+                imgUrl: excel,
                 gitHubLink: "#",
                 deployedLink: "#"
               },
@@ -160,8 +148,8 @@ I actively pursue online certifications and practical learning to stay ahead in 
                 techUsed: [
                   "Power BI", "Data Visualization", "Charts", "Dashboard Design"
                 ],
-                imgUrl:powerBiProject,
-                gitHubLink: "#",
+                imgUrl:powerBi,
+                gitHubLink: "https://github.com/vivekkrs/Diabetes-Analytics-Dashboard-",
                 deployedLink: "#"
               },
             ],
@@ -170,8 +158,8 @@ I actively pursue online certifications and practical learning to stay ahead in 
               { title: "Cloud Computing", institution: "IIT Kharagpur", duration: "Jul 2025 – Oct 2025", img: cloudComputing },
               { title: "Software Engineering: Implementation and Testing", institution: "Coursera", duration: "Feb 2024 – May 2024", img: software_engineering },
               { title: "Data Structures and Algorithms", institution: "CipherSchools", duration: "Jun 2025 – Aug 2025", img: trainingDSA },
-              { title: "Supervised Machine Learning: Regression and Classification", institution: "Coursera", duration: "Jun 2024 – Jul 2024", img: ml },
-              { title: "NodeJs API for Beginners with MongoDB", institution: "Udemy", duration: "Jan 2025 – Mar 2025", img: nodejsCetificate },
+              { title: "ChatGPT-4 Prompt Engineering: ChatGPT, Generative AI & LLM", institution: "Infosys", duration: "Jul 2025 – Aug 2025", img: chatGPT },
+              { title: "Computational Theory: Language Principle & Finite Automata Theory", institution: "Infosys", duration: "Jul 2025 – Aug 2025", img: automata },
             ],
             
           
